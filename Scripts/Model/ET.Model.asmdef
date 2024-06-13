@@ -6,8 +6,7 @@
         "Unity.Mathematics",
         "MemoryPack",
         "ET.TrueSync",
-        "ET.Loader",
-        "ET.Recast"
+        "ET.Loader"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

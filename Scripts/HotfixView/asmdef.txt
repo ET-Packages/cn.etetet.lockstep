@@ -3,6 +3,7 @@
         "ET.TrueSync",
         "ET.Core",
         "ET.Loader",
-        "ET.ReferenceCollector"
+        "ET.ReferenceCollector",
+        "ET.YooAssets"
     ]
 }
