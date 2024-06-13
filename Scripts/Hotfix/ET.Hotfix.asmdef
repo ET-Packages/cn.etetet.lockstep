@@ -1,0 +1,25 @@
+{
+    "name": "ET.Hotfix",
+    "rootNamespace": "",
+    "references": [
+        "ET.Core",
+        "Unity.Mathematics",
+        "MemoryPack",
+        "ET.Model",
+        "ET.TrueSync",
+        "ET.Loader",
+        "ET.Recast"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [],
+    "additionalReferences": [],
+    "compilerOptions": ""
+}
