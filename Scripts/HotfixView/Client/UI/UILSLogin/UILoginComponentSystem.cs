@@ -21,8 +21,11 @@ namespace ET.Client
 
         public static void OnLogin(this UILSLoginComponent self)
         {
+            GlobalComponent globalComponent = self.Root().GetComponent<GlobalComponent>();
+            
             LoginHelper.Login(
                 self.Root(),
+                globalComponent.GlobalConfig.Address,
                 self.account.GetComponent<InputField>().text,
                 self.password.GetComponent<InputField>().text).NoContext();
         }
