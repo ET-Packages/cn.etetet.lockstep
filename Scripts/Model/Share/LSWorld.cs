@@ -75,6 +75,18 @@ namespace ET
             this.updater.Add(entity);
         }
         
+        // lsworld自己时挂在entity上的，但是自己的组件却是LSEntity，所以这里两个get hash code的实现不一样
+        public override long GetLongHashCode()
+        {
+            return this.GetType().TypeHandle.Value.ToInt64();
+        }
+        
+        public override long GetComponentLongHashCode(Type type)
+        {
+            return LSEntitySystemSingleton.Instance.GetLongHashCode(type);
+        }
+        
+        
         public new K AddComponent<K>(bool isFromPool = false) where K : LSEntity, IAwake, new()
         {
             return this.AddComponentWithId<K>(this.GetId(), isFromPool);
