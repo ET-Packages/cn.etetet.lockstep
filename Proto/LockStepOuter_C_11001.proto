@@ -78,3 +78,42 @@ message G2C_Reconnect // IMessage
 	repeated LockStepUnitInfo UnitInfos = 2;
 	int32 Frame = 3;
 }
+
+message RouterSync
+{
+	uint32 ConnectId = 1;
+	string Address = 2;
+}
+
+// ResponseType G2C_EnterMap
+message C2G_EnterMap // ISessionRequest
+{
+	int32 RpcId = 1;
+}
+
+message G2C_EnterMap // ISessionResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+	/// 自己的UnitId
+	int64 MyId = 4;
+}
+
+message G2C_Test // ISessionMessage
+{
+}
+
+
+// ResponseType M2C_TransferMap
+message C2M_TransferMap // ILocationRequest
+{
+	int32 RpcId = 1;
+}
+
+message M2C_TransferMap // ILocationResponse
+{
+	int32 RpcId = 1;
+	int32 Error = 2;
+	string Message = 3;
+}
