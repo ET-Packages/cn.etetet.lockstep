@@ -48,6 +48,7 @@
         <ProjectReference Include="$(SolutionDir)Packages\cn.etetet.sourcegenerator\DotNet~\ET.Analyzer\ET.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
         <ProjectReference Include="$(SolutionDir)Packages\cn.etetet.sourcegenerator\DotNet~\ET.SourceGenerator\ET.SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
         <ProjectReference Include="..\..\..\cn.etetet.loader\DotNet~\Loader\ET.Loader.csproj" />
+        <ProjectReference Include="..\..\..\cn.etetet.lsentity\DotNet~\ET.LSEntity.csproj" />
         <ProjectReference Include="..\..\..\cn.etetet.truesync\DotNet~\ET.TrueSync.csproj" />
     </ItemGroup>
 

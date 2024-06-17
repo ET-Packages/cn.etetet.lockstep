@@ -4,6 +4,7 @@
         "ET.Core",
         "ET.Loader",
         "ET.ReferenceCollector",
-        "ET.YooAssets"
+        "ET.YooAssets",
+        "ET.LSEntity"
     ]
 }

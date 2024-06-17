@@ -9,6 +9,8 @@ namespace ET.Client
     {
         protected override async ETTask Run(Scene root, EntryEvent3 args)
         {
+            World.Instance.AddSingleton<LSEntitySystemSingleton>();
+            
             root.AddComponent<GlobalComponent>();
             root.AddComponent<UIGlobalComponent>();
             root.AddComponent<UIComponent>();

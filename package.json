@@ -27,6 +27,7 @@
     "cn.etetet.db": "https://github.com/ET-Packages/cn.etetet.db.git#0.0.1",
     "cn.etetet.ui": "https://github.com/ET-Packages/cn.etetet.ui.git#0.0.1",
     "cn.etetet.referencecollector": "https://github.com/ET-Packages/cn.etetet.referencecollector.git#0.0.1",
-    "cn.etetet.truesync": "https://github.com/ET-Packages/cn.etetet.truesync.git#0.0.1"
+    "cn.etetet.truesync": "https://github.com/ET-Packages/cn.etetet.truesync.git#0.0.1",
+    "cn.etetet.lsentity": "https://github.com/ET-Packages/cn.etetet.lsentity.git#0.0.1"
   }
 }

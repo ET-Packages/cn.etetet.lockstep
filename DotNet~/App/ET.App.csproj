@@ -32,6 +32,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\cn.etetet.loader\DotNet~\Loader\ET.Loader.csproj" />
     <ProjectReference Include="..\Model\ET.Model.csproj" />
   </ItemGroup>
 </Project>

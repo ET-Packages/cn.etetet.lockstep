@@ -1,5 +1,6 @@
 {
     "references": [
-        "ET.UI"
+        "ET.UI",
+        "ET.LSEntity"
     ]
 }
