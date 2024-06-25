@@ -12,22 +12,5 @@
     "type": "git",
     "url": "https://github.com/egametang/ET"
   },
-  "relatedPackages": {},
-  "gitDependencies": {
-    "cn.etetet.actorlocation": "https://github.com/ET-Packages/cn.etetet.actorlocation.git#0.0.1",
-    "cn.etetet.core": "https://github.com/ET-Packages/cn.etetet.core.git#0.0.1",
-    "cn.etetet.yooassets": "https://github.com/ET-Packages/cn.etetet.yooassets.git#0.0.1",
-    "cn.etetet.loader": "https://github.com/ET-Packages/cn.etetet.loader.git#0.0.1",
-    "cn.etetet.demores": "https://github.com/ET-Packages/cn.etetet.demores.git#0.0.1",
-    "cn.etetet.router": "https://github.com/ET-Packages/cn.etetet.router.git#0.0.1",
-    "cn.etetet.console": "https://github.com/ET-Packages/cn.etetet.console.git#0.0.1",
-    "cn.etetet.http": "https://github.com/ET-Packages/cn.etetet.http.git#0.0.1",
-    "cn.etetet.watcher": "https://github.com/ET-Packages/cn.etetet.watcher.git#0.0.1",
-    "cn.etetet.db": "https://github.com/ET-Packages/cn.etetet.db.git#0.0.1",
-    "cn.etetet.ui": "https://github.com/ET-Packages/cn.etetet.ui.git#0.0.1",
-    "cn.etetet.referencecollector": "https://github.com/ET-Packages/cn.etetet.referencecollector.git#0.0.1",
-    "cn.etetet.truesync": "https://github.com/ET-Packages/cn.etetet.truesync.git#0.0.1",
-    "cn.etetet.lsentity": "https://github.com/ET-Packages/cn.etetet.lsentity.git#0.0.1",
-    "cn.etetet.login": "https://github.com/ET-Packages/cn.etetet.login.git#0.0.1"
-  }
+  "relatedPackages": {}
 }
