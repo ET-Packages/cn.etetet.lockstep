@@ -12,5 +12,28 @@
     "type": "git",
     "url": "https://github.com/egametang/ET"
   },
-  "relatedPackages": {}
+  "relatedPackages": {},
+
+  "dependencies": {
+  "cn.etetet.actorlocation": "0.0.1",
+  "cn.etetet.core": "0.0.1",
+  "cn.etetet.yooassets": "0.0.1",
+  "cn.etetet.loader": "0.0.1",
+  "cn.etetet.demores": "0.0.1",
+  "cn.etetet.router": "0.0.1",
+  "cn.etetet.console": "0.0.1",
+  "cn.etetet.http": "0.0.1",
+  "cn.etetet.watcher": "0.0.1",
+  "cn.etetet.db": "0.0.1",
+  "cn.etetet.ui": "0.0.1",
+  "cn.etetet.referencecollector": "0.0.1",
+  "cn.etetet.truesync": "0.0.1",
+  "cn.etetet.lsentity": "0.0.1",
+  "cn.etetet.login": "0.0.1"
+},
+
+  "publishConfig": 
+  { 
+    "registry": "https://npm.pkg.github.com/@ET-Packages" 
+  }
 }
