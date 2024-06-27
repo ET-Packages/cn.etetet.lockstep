@@ -10,6 +10,7 @@
         "ET.Hotfix",
         "ET.ModelView",
         "YooAsset",
+        "ET.SourceGeneratorAttribute",
         "ET.Init",
         "ET.TrueSync",
         "ET.ReferenceCollector",

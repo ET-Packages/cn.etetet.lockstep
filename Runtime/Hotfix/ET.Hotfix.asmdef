@@ -6,6 +6,7 @@
         "Unity.Mathematics",
         "MemoryPack",
         "ET.Model",
+        "ET.SourceGeneratorAttribute",
         "ET.TrueSync",
         "ET.Loader",
         "ET.LSEntity"
