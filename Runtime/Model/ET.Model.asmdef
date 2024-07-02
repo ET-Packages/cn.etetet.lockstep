@@ -16,7 +16,9 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": false,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "INITED"
+    ],
     "versionDefines": [],
     "noEngineReferences": false,
     "optionalUnityReferences": [],
