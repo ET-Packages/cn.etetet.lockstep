@@ -1,7 +1,7 @@
 {
   "name": "cn.etetet.lockstep",
   "displayName": "ET.LockStep",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "unity": "2022.3",
   "description": "et lockstep",
   "author": {
@@ -29,7 +29,8 @@
   "cn.etetet.referencecollector": "0.0.1",
   "cn.etetet.truesync": "0.0.1",
   "cn.etetet.lsentity": "0.0.2",
-  "cn.etetet.login": "0.0.1"
+  "cn.etetet.login": "0.0.1",
+  "cn.etetet.netinner": "0.0.1"
 },
 
   "publishConfig": 
