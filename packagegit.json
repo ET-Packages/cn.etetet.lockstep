@@ -1,4 +1,31 @@
 {
 "Id": 11,
-"Name": "LockStep"
+"Name": "LockStep",
+"ScriptsReferences": {
+  "ModelView": [
+    "ET.UI",
+    "ET.LSEntity"
+  ],
+  "Model": [
+    "ET.TrueSync",
+    "ET.Core",
+    "ET.Loader",
+    "ET.LSEntity"
+  ],
+  "HotfixView": [
+    "ET.TrueSync",
+    "ET.Core",
+    "ET.Loader",
+    "ET.ReferenceCollector",
+    "ET.YooAssets",
+    "ET.LSEntity",
+    "ET.Init"
+  ],
+  "Hotfix": [
+    "ET.TrueSync",
+    "ET.Core",
+    "ET.Loader",
+    "ET.LSEntity"
+  ]
+}
 }

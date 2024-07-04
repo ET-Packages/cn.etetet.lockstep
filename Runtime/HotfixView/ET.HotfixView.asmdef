@@ -11,11 +11,11 @@
         "ET.ModelView",
         "YooAsset",
         "ET.SourceGeneratorAttribute",
-        "ET.Init",
         "ET.TrueSync",
         "ET.ReferenceCollector",
         "ET.YooAssets",
         "ET.LSEntity",
+        "ET.Init",
         "ET.UI"
     ],
     "includePlatforms": [],

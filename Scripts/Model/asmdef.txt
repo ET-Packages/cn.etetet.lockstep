@@ -1,8 +1,0 @@
-{
-    "references": [
-        "ET.TrueSync",
-        "ET.Core",
-        "ET.Loader",
-	"ET.LSEntity"
-    ]
-}
