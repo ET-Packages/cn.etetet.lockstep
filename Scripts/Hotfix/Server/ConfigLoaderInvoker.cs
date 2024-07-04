@@ -24,11 +24,11 @@ namespace ET
                 string configFilePath;
                 if (startConfigs.Contains(configType.Name))
                 {
-                    configFilePath = Path.Combine($"./Config/Excel/s/{Options.Instance.StartConfig}/{configType.Name}.bytes");    
+                    configFilePath = Path.Combine($"{LSConstValue.ExcelPackagePath}/Config/Bytes/s/{Options.Instance.StartConfig}/{configType.Name}.bytes");    
                 }
                 else
                 {
-                    configFilePath = Path.Combine($"./Config/Excel/s/{configType.Name}.bytes");
+                    configFilePath = Path.Combine($"{LSConstValue.ExcelPackagePath}/Config/Bytes/s/{configType.Name}.bytes");
                 }
                 output[configType] = File.ReadAllBytes(configFilePath);
             }
@@ -43,7 +43,7 @@ namespace ET
     {
         public override byte[] Handle(ConfigLoader.GetOneConfigBytes args)
         {
-            byte[] configBytes = File.ReadAllBytes($"./Config/Excel/s/{args.ConfigName}.bytes");
+            byte[] configBytes = File.ReadAllBytes($"{LSConstValue.ExcelPackagePath}/Config/Bytes/s/{args.ConfigName}.bytes");
             return configBytes;
         }
     }

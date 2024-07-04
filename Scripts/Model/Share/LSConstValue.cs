@@ -6,5 +6,7 @@ namespace ET
         public const int UpdateInterval = 50;
         public const int FrameCountPerSecond = 1000 / UpdateInterval;
         public const int SaveLSWorldFrameCount = 60 * FrameCountPerSecond;
+        
+        public const string ExcelPackagePath = "./Packages/cn.etetet.excel";
     }
 }

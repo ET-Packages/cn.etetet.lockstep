@@ -44,11 +44,11 @@ namespace ET
                     string configFilePath;
                     if (startConfigs.Contains(configType.Name))
                     {
-                        configFilePath = $"./Config/Excel/{ct}/{Options.Instance.StartConfig}/{configType.Name}.bytes";    
+                        configFilePath = $"{LSConstValue.ExcelPackagePath}/Config/Bytes/{ct}/{Options.Instance.StartConfig}/{configType.Name}.bytes";    
                     }
                     else
                     {
-                        configFilePath = $"./Config/Excel/{ct}/{configType.Name}.bytes";
+                        configFilePath = $"{LSConstValue.ExcelPackagePath}/Config/Bytes/{ct}/{configType.Name}.bytes";
                     }
                     output[configType] = File.ReadAllBytes(configFilePath);
                 }
@@ -57,7 +57,7 @@ namespace ET
             {
                 foreach (Type type in configTypes)
                 {
-                    TextAsset v = await ResourcesComponent.Instance.LoadAssetAsync<TextAsset>($"Packages/cn.etetet.excel/Config/{type.Name}.bytes");
+                    TextAsset v = await ResourcesComponent.Instance.LoadAssetAsync<TextAsset>($"{LSConstValue.ExcelPackagePath}/Config/Bytes/c/{type.Name}.bytes");
                     output[type] = v.bytes;
                 }
             }
@@ -101,11 +101,11 @@ namespace ET
             string configFilePath;
             if (startConfigs.Contains(configName))
             {
-                configFilePath = $"./Config/Excel/{ct}/{Options.Instance.StartConfig}/{configName}.bytes";    
+                configFilePath = $"{LSConstValue.ExcelPackagePath}/Config/Bytes/{ct}/{Options.Instance.StartConfig}/{configName}.bytes";    
             }
             else
             {
-                configFilePath = $"./Config/Excel/{ct}/{configName}.bytes";
+                configFilePath = $"{LSConstValue.ExcelPackagePath}/Config/Bytes/{ct}/{configName}.bytes";
             }
 
             await ETTask.CompletedTask;
