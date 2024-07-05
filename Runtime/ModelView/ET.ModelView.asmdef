@@ -3,15 +3,14 @@
     "rootNamespace": "",
     "references": [
         "ET.Core",
-        "Unity.Mathematics",
+        "ET.Init",
         "ET.Loader",
         "ET.Model",
-        "YooAsset",
+        "ET.ReferenceCollector",
         "ET.SourceGeneratorAttribute",
-        "ET.Init",
         "ET.UI",
-        "ET.LSEntity",
-        "ET.ReferenceCollector"
+        "Unity.Mathematics",
+        "YooAsset"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -3,13 +3,12 @@
     "rootNamespace": "",
     "references": [
         "ET.Core",
-        "Unity.Mathematics",
-        "MemoryPack",
-        "ET.Model",
-        "ET.SourceGeneratorAttribute",
-        "ET.TrueSync",
         "ET.Loader",
-        "ET.LSEntity"
+        "ET.Model",
+        "ET.Recast",
+        "ET.SourceGeneratorAttribute",
+        "MemoryPack",
+        "Unity.Mathematics"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
