@@ -4,9 +4,10 @@
     "references": [
         "ET.Core",
         "ET.Loader",
+        "ET.LSEntity",
         "ET.Model",
-        "ET.Recast",
         "ET.SourceGeneratorAttribute",
+        "ET.TrueSync",
         "MemoryPack",
         "Unity.Mathematics"
     ],

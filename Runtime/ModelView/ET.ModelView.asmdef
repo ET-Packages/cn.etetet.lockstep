@@ -4,12 +4,11 @@
     "references": [
         "ET.Core",
         "ET.Init",
-        "ET.Loader",
+        "ET.LSEntity",
         "ET.Model",
         "ET.ReferenceCollector",
         "ET.SourceGeneratorAttribute",
         "ET.UI",
-        "Unity.Mathematics",
         "YooAsset"
     ],
     "includePlatforms": [],

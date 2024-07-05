@@ -3,8 +3,10 @@
     "rootNamespace": "",
     "references": [
         "ET.Core",
-        "ET.Recast",
+        "ET.Loader",
+        "ET.LSEntity",
         "ET.SourceGeneratorAttribute",
+        "ET.TrueSync",
         "MemoryPack",
         "Unity.Mathematics"
     ],

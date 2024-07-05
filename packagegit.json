@@ -4,7 +4,8 @@
 "ScriptsReferences": {
   "ModelView": [
     "ET.UI",
-    "ET.LSEntity"
+    "ET.LSEntity",
+    "ET.Model"
   ],
   "Model": [
     "ET.TrueSync",
