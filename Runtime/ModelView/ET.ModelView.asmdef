@@ -3,7 +3,7 @@
     "rootNamespace": "",
     "references": [
         "ET.Core",
-        "ET.Init",
+        "ET.Loader",
         "ET.LSEntity",
         "ET.Model",
         "ET.ReferenceCollector",
