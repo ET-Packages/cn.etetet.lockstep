@@ -1,7 +1,7 @@
 {
   "name": "cn.etetet.lockstep",
   "displayName": "ET.LockStep",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "unity": "2022.3",
   "description": "et lockstep",
   "author": {
@@ -15,10 +15,10 @@
   "relatedPackages": {},
 
   "dependencies": {
-  "cn.etetet.actorlocation": "0.0.4",
-  "cn.etetet.core": "0.0.12",
+  "cn.etetet.actorlocation": "0.0.6",
+  "cn.etetet.core": "0.0.13",
   "cn.etetet.yooassets": "0.0.2",
-  "cn.etetet.loader": "0.0.7",
+  "cn.etetet.loader": "0.0.8",
   "cn.etetet.demores": "0.0.1",
   "cn.etetet.router": "0.0.1",
   "cn.etetet.console": "0.0.1",
@@ -30,7 +30,10 @@
   "cn.etetet.truesync": "0.0.1",
   "cn.etetet.lsentity": "0.0.2",
   "cn.etetet.login": "0.0.1",
-  "cn.etetet.netinner": "0.0.2"
+  "cn.etetet.netinner": "0.0.2",
+  "cn.etetet.hybridclr": "0.0.1",
+  "cn.etetet.excel": "0.0.5",
+  "cn.etetet.proto": "0.0.4"
 },
 
   "publishConfig": 
