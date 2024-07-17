@@ -13,7 +13,7 @@ namespace ET.Server
                 Room2C_CheckHashFail room2CCheckHashFail = Room2C_CheckHashFail.Create();
                 room2CCheckHashFail.Frame = message.Frame;
                 room2CCheckHashFail.LSWorldBytes = bytes;
-                room.Root().GetComponent<MessageLocationSenderComponent>().Get(LocationType.GateSession).Send(message.PlayerId, room2CCheckHashFail).NoContext();
+                room.Root().GetComponent<MessageLocationSenderComponent>().Get(LocationType.GateSession).Send(message.PlayerId, room2CCheckHashFail);
             }
             await ETTask.CompletedTask;
         }

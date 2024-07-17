@@ -42,7 +42,7 @@ namespace ET.Server
             
             foreach (long id in match2MapGetRoom.PlayerIds) // 这里发送消息线程不会修改PlayerInfo，所以可以直接使用
             {
-                messageLocationSenderComponent.Get(LocationType.Player).Send(id, match2GNotifyMatchSuccess).NoContext();
+                messageLocationSenderComponent.Get(LocationType.Player).Send(id, match2GNotifyMatchSuccess);
                 // 等待进入房间的确认消息，如果超时要通知所有玩家退出房间，重新匹配
             }
         }

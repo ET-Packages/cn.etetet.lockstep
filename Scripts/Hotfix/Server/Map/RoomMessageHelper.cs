@@ -19,8 +19,8 @@ namespace ET.Server
                 {
                     continue;
                 }
-                
-                messageLocationSenderComponent.Get(LocationType.GateSession).Send(roomPlayer.Id, message).NoContext();
+
+                messageLocationSenderComponent.Get(LocationType.GateSession).Send(roomPlayer.Id, message);
             }
         }
     }
