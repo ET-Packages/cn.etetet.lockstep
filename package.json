@@ -1,7 +1,7 @@
 {
   "name": "cn.etetet.lockstep",
   "displayName": "ET.LockStep",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "unity": "2022.3",
   "description": "et lockstep",
   "author": {
@@ -15,6 +15,7 @@
   "relatedPackages": {},
 
   "dependencies": {
+  "cn.etetet.packagemanager": "0.0.3",
   "cn.etetet.actorlocation": "0.0.7",
   "cn.etetet.core": "0.0.15",
   "cn.etetet.yooassets": "0.0.2",
