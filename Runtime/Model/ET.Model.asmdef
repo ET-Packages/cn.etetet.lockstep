@@ -5,6 +5,7 @@
         "ET.Core",
         "ET.Loader",
         "ET.LSEntity",
+        "ET.MemoryPack",
         "ET.SourceGeneratorAttribute",
         "ET.TrueSync",
         "MemoryPack",
