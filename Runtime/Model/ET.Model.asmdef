@@ -8,8 +8,8 @@
         "ET.MemoryPack",
         "ET.SourceGeneratorAttribute",
         "ET.TrueSync",
-        "MemoryPack",
-        "Unity.Mathematics"
+        "Unity.Mathematics",
+        "ET.YooAssets"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

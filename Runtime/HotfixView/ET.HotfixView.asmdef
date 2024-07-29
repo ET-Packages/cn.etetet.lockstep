@@ -4,9 +4,9 @@
     "references": [
         "ET.Core",
         "ET.Hotfix",
-        "ET.Init",
         "ET.Loader",
         "ET.LSEntity",
+        "ET.MemoryPack",
         "ET.Model",
         "ET.ModelView",
         "ET.ReferenceCollector",
@@ -14,9 +14,7 @@
         "ET.TrueSync",
         "ET.UI",
         "ET.YooAssets",
-        "MemoryPack",
-        "Unity.Mathematics",
-        "YooAsset"
+        "Unity.Mathematics"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

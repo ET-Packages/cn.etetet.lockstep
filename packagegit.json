@@ -19,8 +19,7 @@
     "ET.Loader",
     "ET.ReferenceCollector",
     "ET.YooAssets",
-    "ET.LSEntity",
-    "ET.Init"
+    "ET.LSEntity"
   ],
   "Hotfix": [
     "ET.TrueSync",

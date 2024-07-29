@@ -9,7 +9,6 @@
         "ET.Model",
         "ET.SourceGeneratorAttribute",
         "ET.TrueSync",
-        "MemoryPack",
         "Unity.Mathematics"
     ],
     "includePlatforms": [],

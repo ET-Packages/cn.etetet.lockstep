@@ -9,7 +9,7 @@
         "ET.ReferenceCollector",
         "ET.SourceGeneratorAttribute",
         "ET.UI",
-        "YooAsset"
+        "ET.YooAssets"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
