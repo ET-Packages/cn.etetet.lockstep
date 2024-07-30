@@ -1,7 +1,7 @@
 ﻿{
   "name": "cn.etetet.lockstep",
   "displayName": "ET.LockStep",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "unity": "2022.3",
   "description": "et lockstep",
   "author": {
@@ -28,12 +28,12 @@
     "cn.etetet.ui": "0.0.2",
     "cn.etetet.referencecollector": "0.0.1",
     "cn.etetet.truesync": "0.0.2",
-    "cn.etetet.lsentity": "0.0.2",
+    "cn.etetet.lsentity": "0.0.4",
     "cn.etetet.login": "0.0.1",
     "cn.etetet.netinner": "0.0.3",
     "cn.etetet.hybridclr": "6.4.0",
     "cn.etetet.excel": "0.0.5",
-    "cn.etetet.proto": "0.0.5"
+    "cn.etetet.proto": "0.0.6"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ET-Packages"
