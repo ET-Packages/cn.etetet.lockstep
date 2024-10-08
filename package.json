@@ -1,7 +1,7 @@
 ﻿{
   "name": "cn.etetet.lockstep",
   "displayName": "ET.LockStep",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "unity": "2022.3",
   "description": "预测回滚的帧同步demo",
   "author": {
@@ -14,9 +14,9 @@
   },
   "relatedPackages": {},
   "dependencies": {
-    "cn.etetet.packagemanager": "0.0.20",
+    "cn.etetet.packagemanager": "1.0.0",
     "cn.etetet.actorlocation": "2.0.1",
-    "cn.etetet.core": "2.0.5",
+    "cn.etetet.core": "2.0.7",
     "cn.etetet.loader": "2.0.6",
     "cn.etetet.demores": "0.0.2",
     "cn.etetet.router": "2.0.1",
