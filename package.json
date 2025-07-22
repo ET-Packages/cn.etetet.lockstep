@@ -1,7 +1,7 @@
 ﻿{
   "name": "cn.etetet.lockstep",
   "displayName": "ET.LockStep",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "unity": "2022.3",
   "description": "预测回滚的帧同步demo",
   "author": {
@@ -27,7 +27,7 @@
     "cn.etetet.referencecollector": "3.0.0",
     "cn.etetet.truesync": "3.0.0",
     "cn.etetet.lsentity": "3.0.0",
-    "cn.etetet.login": "3.0.1",
+    "cn.etetet.login": "3.0.0",
     "cn.etetet.netinner": "3.0.0",
     "cn.etetet.hybridclr": "7.8.1",
     "cn.etetet.excel": "3.0.0",
